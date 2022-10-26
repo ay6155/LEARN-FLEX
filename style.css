@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+     
+    
+}
+p{
+    font-size:16px;
+    text-transform: capitalize;
+}
+ h1, h2{
+    font-size:1em;
+    text-transform: capitalize;
+    color:#472479d5;
+}
+a{
+    color:#c96caa;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+i{
+    background-color:#bb2f8c;
+    padding:0.5em;
+    border-radius: 50%;
+    
+}
+
+.rel-container{
+    width:70%;
+    height:1000px;
+    background-color:rgba(247, 247, 247, 0.911); 
+   overflow:visible;
+    margin:auto;
+}
+.up-page{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.up-page .skil{
+    margin-left:1em;
+    color:#472479d5;
+    display:block;
+}
+.up-page a{
+    color:#fff;
+    background:#190b2eee;
+    border-radius: 24px;
+    text-align:center;
+    padding-top:0.5em;
+    padding-left:1em;
+    padding-right:1em;
+    margin-top:1em;
+    margin-right: 1em;
+}
+.layout{
+    position:relative;
+    
+}
+.skill-budget{
+    display:flex;
+}
+.skill-info h1{
+    font-size:1em;
+   margin-left:1em;
+    
+    font-weight:700;
+    width:40%;
+    
+}
+.skill-info .small-font{
+    font-weight:100;
+    text-transform: lowercase;
+    color:rgb(43, 41, 41);
+    padding:0.3em;
+    margin-left:1em;
+}
+.skill-info a{
+    background:linear-gradient(to bottom, #e7530ef3, #bb2f8c);
+    color:#fff;
+    border-radius: 12px;
+    padding:0.6em 2em;
+    font-size:10px;
+    margin-left:1em;
+}
+.skill-img{
+    position:relative;
+   
+   
+}
+.bg-img{
+    background: #bb2f8c;
+     transform:rotateZ(30deg);
+}
+.hour{
+    color:#ccc;
+    background:#fff;
+    padding:0.3em;
+}
+span{
+    color:#180633d5;
+}
+.skill-list{
+    display: flex;
+    flex-direction:row;
+    width:50%;
+    align-items:stretch;
+    justify-content:flex-start;
+   flex-wrap:wrap; 
+   margin-inline:auto;
+}
+@media (max-width:329px){
+    .skill-list{
+    /* overflow:scroll; */
+    }
+}
+.list-info{
+   padding:1em;
+   margin:1em;
+    background:#fff;
+    color:rgb(43, 41, 41);
+   flex:200px;
+}
+.list-info:nth-of-type(1){
+    background: linear-gradient(#e7530ef3, #bb2f8c);
+    color:#fff;
+    
+}
+
+
+footer{
+    background: #180633d5;
+    padding:1em;
+    
+   
+    
+}
+footer .right{
+   float:right;
+   border-radius:23px;
+   background: linear-gradient(#643f9bd5, #ec5abc);
+   padding:0.2em;
+}
+footer a{
+    color:#fff;
+}
+@media(min-width:600px){
+    body{
+        background: red;
+    }
+}
+    
